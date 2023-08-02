@@ -1,7 +1,5 @@
 
-with open(r"D:\Python Codes\Rosalind-\Bioinformatics-Textbook-Track\rosalind_ba1a.txt") as f:
-    text = f.readline().strip()
-    pattern = f.readline().strip()
+
     
 def PatternCount(text,pattern):
     c=0
@@ -11,7 +9,12 @@ def PatternCount(text,pattern):
         if text[i:i+len(pattern)] == pattern:
             c+=1
     return c 
-print(PatternCount(text ,pattern))
+if __name__ == "__main__":
+    with open(r"D:\Python Codes\Rosalind-\Bioinformatics-Textbook-Track\BA1A\rosalind_ba1a.txt") as f:
+        text = f.readline().strip()
+        pattern = f.readline().strip()
+    print(PatternCount(text ,pattern))
+
 """
 for i in range(1,9):
     i = str(i)
