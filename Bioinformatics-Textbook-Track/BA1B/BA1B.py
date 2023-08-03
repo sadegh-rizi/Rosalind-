@@ -47,6 +47,7 @@ k=5
 #sorted_k_mers = sorted(get_k_mers(seq,k).items(),key = lambda x:x[1],reverse=True)
         
 print(" ".join(get_k_mers2(seq,k))) 
+
 kmers=[]
 frqs = []
 def freq_array(seq,k):

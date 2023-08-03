@@ -85,6 +85,30 @@ def faster_frequent_words(text,k):
     return patterns
 seq='CCAGCGGGGGTTGATGCTCTGGGGGTCACAAGATTGCATTTTTATGGGGTTGCAAAAATGTTTTTTACGGCAGATTCATTTAAAATGCCCACTGGCTGGAGACATAGCCCGGATGCGCGTCTTTTACAACGTATTGCGGGGTAAAATCGTAGATGTTTTAAAATAGGCGTAAC'
 
+def finding_frequent_words_by_sorting(text , k):
+    index_list = []
+    count_list = []
+    for i in range(len(text)-k+1):
+    
+        pattern = text[i:i+k]
+        index = patterntonumber(pattern)
+        #print(index)
+        #print(index_list)
+        #print(count_list)
+        if index not in index_list:
+            
+            index_list.append(index)
+            count_list.append(1) 
+        else:
+            count_list[index_list.index(index)]+=1
+    #print(index_list)
+    #print(count_list)
+    frequent_patterns = [numbertopattern(index,k) for index in index_list if count_list[index_list.index(index)]==max(count_list)]
+    return (frequent_patterns)
+finding_frequent_words_by_sorting("AAGCAAAGGTGGG",2)
+
+
+
 k=5
 print(" ".join(faster_frequent_words(seq,k)))
 
