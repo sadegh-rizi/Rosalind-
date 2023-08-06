@@ -32,8 +32,8 @@ def numbertopattern(index,k):
         base4.append(remainder)
     base4.extend((k-len(base4))*[0])
     base4= base4[::-1] 
-    print(base4)  
-    print([symbol[x] for x in base4])
+    #print(base4)  
+    #print([symbol[x] for x in base4])
     pattern= "".join([symbol[x] for x in base4])
     return pattern
 
@@ -51,7 +51,7 @@ numbertopattern2(5437,7)
 
 
 
-numbertopattern(7450,9)
+#numbertopattern(7450,9)
 
 #Recursive approach 
 def recursive_numbertopattern(index,k):
@@ -63,9 +63,9 @@ def recursive_numbertopattern(index,k):
     lsymbol = symbol[remainder]
     prefix_pattern= recursive_numbertopattern(prefix_index,k-1)
     return prefix_pattern+lsymbol
-recursive_numbertopattern(5437,8)
+#recursive_numbertopattern(5437,8)
   
-numbertopattern(0,2)
+##numbertopattern(0,2)
 
 
 def computing_frequencies(text,k):
@@ -75,7 +75,7 @@ def computing_frequencies(text,k):
         index = patterntonumber(pattern)
         frequency_array[index]+=1
     return frequency_array
-computing_frequencies("AAGCAAAGGTGGG",2)
+#computing_frequencies("AAGCAAAGGTGGG",2)
 
 def faster_frequent_words(text,k):
     frequents_patterns=set()
@@ -85,7 +85,7 @@ def faster_frequent_words(text,k):
     return patterns
 seq='CCAGCGGGGGTTGATGCTCTGGGGGTCACAAGATTGCATTTTTATGGGGTTGCAAAAATGTTTTTTACGGCAGATTCATTTAAAATGCCCACTGGCTGGAGACATAGCCCGGATGCGCGTCTTTTACAACGTATTGCGGGGTAAAATCGTAGATGTTTTAAAATAGGCGTAAC'
 
-def finding_frequent_words_by_sorting(text , k):
+def finding_frequent_words_by_sorting(text , k,t='maximum'):
     index_list = []
     count_list = []
     for i in range(len(text)-k+1):
@@ -103,16 +103,19 @@ def finding_frequent_words_by_sorting(text , k):
             count_list[index_list.index(index)]+=1
     #print(index_list)
     #print(count_list)
-    frequent_patterns = [numbertopattern(index,k) for index in index_list if count_list[index_list.index(index)]==max(count_list)]
+    if t=='maximum':
+        frequent_patterns = [numbertopattern2(index,k) for index in index_list if count_list[index_list.index(index)]==max(count_list)]
+    else:
+        frequent_patterns = [numbertopattern2(index,k) for index in index_list if count_list[index_list.index(index)]==t]
     return (frequent_patterns)
-finding_frequent_words_by_sorting("AAGCAAAGGTGGG",2)
+#finding_frequent_words_by_sorting("AAGCAAAGGTGGG",2)
 
 
 
-k=5
-print(" ".join(faster_frequent_words(seq,k)))
+#k=5
+#print(" ".join(faster_frequent_words(seq,k)))
 
-numbertopattern(5437,4)
+#numbertopattern(5437,4)
 
-recursive_patterntonumber("GTCCATATGCGTCGAACGGACATTTCTCT")
-patterntonumber("GTCCATATGCGTCGAACGGACATTTCTCT")
+#recursive_patterntonumber("GTCCATATGCGTCGAACGGACATTTCTCT")
+#patterntonumber("GTCCATATGCGTCGAACGGACATTTCTCT")
