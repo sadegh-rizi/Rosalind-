@@ -42,9 +42,24 @@ def numbertopattern(index,k):
 def numbertopattern2(index,k):
     pattern = ''
     for i in range(k):
-        pattern += symbol[index%4]
+        pattern =symbol[index%4]+pattern
         index = index // 4
 
+    return pattern
+def numbertopattern(index,k):
+    base4 =[]
+    quotient = index
+    while quotient != 0 :
+        quotient = index//4 
+        remainder = index%4
+        index=quotient
+
+        base4.append(remainder)
+    base4.extend((k-len(base4))*[0])
+    base4= base4[::-1] 
+    #print(base4)  
+    #print([symbol[x] for x in base4])
+    pattern= "".join([symbol[x] for x in base4])
     return pattern
 numbertopattern2(5437,7)
 
@@ -75,7 +90,7 @@ def computing_frequencies(text,k):
         index = patterntonumber(pattern)
         frequency_array[index]+=1
     return frequency_array
-#computing_frequencies("AAGCAAAGGTGGG",2)
+computing_frequencies("AAGCAAAGGTGGG",2)
 
 def faster_frequent_words(text,k):
     frequents_patterns=set()

@@ -81,7 +81,8 @@ def faster_frequent_words(text,k):
     frequents_patterns=set()
     frequency_array=computing_frequencies(text,k)
     #print(frequency_array)
-    patterns = [numbertopattern(i,k) for i in range(len(frequency_array)) if frequency_array[i]==max(frequency_array) ]
+    maximum=max(frequency_array)
+    patterns = [numbertopattern(i,k) for i in range(len(frequency_array)) if frequency_array[i]==maximum ]
     return patterns
 seq='CCAGCGGGGGTTGATGCTCTGGGGGTCACAAGATTGCATTTTTATGGGGTTGCAAAAATGTTTTTTACGGCAGATTCATTTAAAATGCCCACTGGCTGGAGACATAGCCCGGATGCGCGTCTTTTACAACGTATTGCGGGGTAAAATCGTAGATGTTTTAAAATAGGCGTAAC'
 
@@ -104,10 +105,37 @@ def finding_frequent_words_by_sorting(text , k,t='maximum'):
     #print(index_list)
     #print(count_list)
     if t=='maximum':
-        frequent_patterns = [numbertopattern2(index,k) for index in index_list if count_list[index_list.index(index)]==max(count_list)]
+        maximum = max(count_list)
+        frequent_patterns = [numbertopattern2(index,k) for index in index_list if count_list[index_list.index(index)]==maximum]
     else:
         frequent_patterns = [numbertopattern2(index,k) for index in index_list if count_list[index_list.index(index)]==t]
     return (frequent_patterns)
+#frequent words using a hashing datatype (dictionary ) instead of converting pattern to number and vice versa
+
+
+def finding_frequent_words_by_sorting2(text , k,t='maximum'):
+    pattern_freq = {}
+    
+    for i in range(len(text)-k+1):
+        pattern=text[i:i+k]
+        if pattern not in pattern_freq:
+            pattern_freq[pattern]=1
+        else:
+            pattern_freq[pattern]+=1
+    sorted_pattern_freq= sorted(pattern_freq.items(),key = lambda x : x[1],reverse=True)
+    if t=='maximum':
+        t = max(pattern_freq.values())
+    print(sorted_pattern_freq)
+    print(t)
+    frequent_patterns = [x[0] for x in sorted_pattern_freq if x[1]>=t]
+    return frequent_patterns
+print(finding_frequent_words_by_sorting2("AAGCAAAGGTGGG",2))
+
+
+
+
+
+
 finding_frequent_words_by_sorting("AAGCAAAGGTGGG",2)
 
 
