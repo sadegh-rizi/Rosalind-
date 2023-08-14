@@ -35,4 +35,6 @@ def frequent_words_with_mismatches(text,k,d):
     maximum = max(frequency_array)
     frequent_patterns = [numbertopattern(i,k) for i in range(len(frequency_array)) if frequency_array[i]==maximum]
     return frequent_patterns
+
+
 print(" ".join(frequent_words_with_mismatches(text,k,d)))

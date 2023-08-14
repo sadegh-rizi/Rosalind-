@@ -13,6 +13,15 @@ def numbertopattern(index,k):
         pattern =symbol[index%4]+pattern
         index = index // 4
     return pattern
+
+def computing_frequencies_with_mismatches(text,k):
+    ''' Computes the kmers of text and the frequency of their occurence '''
+    frequency_array = [0]*(4**k)
+    for i in range(len(text)-k+1):
+        pattern=text[i:i+k]
+        index = patterntonumber(pattern)
+        frequency_array[index]+=1
+    return frequency_array
 def finding_frequent_words_by_sorting(text , k,t='maximum'):
     index_list = []
     count_list = []
@@ -36,12 +45,3 @@ def finding_frequent_words_by_sorting(text , k,t='maximum'):
     else:
         frequent_patterns = [numbertopattern(index,k) for index in index_list if count_list[index_list.index(index)]>=t]
     return (frequent_patterns)
-
-def computing_frequencies(text,k):
-    ''' Computes the kmers of text and the frequency of their occurence '''
-    frequency_array = [0]*(4**k)
-    for i in range(len(text)-k+1):
-        pattern=text[i:i+k]
-        index = patterntonumber(pattern)
-        frequency_array[index]+=1
-    return frequency_array
