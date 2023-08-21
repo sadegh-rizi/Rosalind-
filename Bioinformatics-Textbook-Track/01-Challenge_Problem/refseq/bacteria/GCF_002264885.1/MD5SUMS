@@ -1,0 +1,15 @@
+245474d9787d58a8b271828a72f432aa  ./annotation_hashes.txt
+e41c92341fca5cd83c5f305229ab6ae7  ./GCF_002264885.1_A5-Miseq_assembly_report.txt
+5873a86f657650dd3e654c564737bcae  ./GCF_002264885.1_A5-Miseq_assembly_stats.txt
+1edc306417e20a424d3fa5700abf8ca2  ./GCF_002264885.1_A5-Miseq_cds_from_genomic.fna.gz
+2b4ac6f06cf3be75514ffdd69811aa99  ./GCF_002264885.1_A5-Miseq_feature_count.txt.gz
+f698f8feed6b1dcad424df7338d5777e  ./GCF_002264885.1_A5-Miseq_feature_table.txt.gz
+b9f00198c42fafd8c7c9de4f0c4a8ac5  ./GCF_002264885.1_A5-Miseq_genomic.fna.gz
+2bf865ec3d4e8218084e0feea7943756  ./GCF_002264885.1_A5-Miseq_genomic.gbff.gz
+5f8ee71e51e6910cd236de49a41634fe  ./GCF_002264885.1_A5-Miseq_genomic.gff.gz
+885b1b0d04dae9501c105d71d6c42715  ./GCF_002264885.1_A5-Miseq_genomic.gtf.gz
+fdca111774cbb2042a92c3386cac4332  ./GCF_002264885.1_A5-Miseq_protein.faa.gz
+6211fd5c2be5e536e36b0f3e9d2e78c4  ./GCF_002264885.1_A5-Miseq_protein.gpff.gz
+10d861c809efbcfceb83efbb0989c145  ./GCF_002264885.1_A5-Miseq_rna_from_genomic.fna.gz
+240fa33968f71cd5107910b454f44ae5  ./GCF_002264885.1_A5-Miseq_translated_cds.faa.gz
+7ffbfb3148c9a2c9ce036653b49fc777  ./GCF_002264885.1_A5-Miseq_wgsmaster.gbff.gz

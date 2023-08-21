@@ -1,0 +1,15 @@
+8637caccc4441a0882a85e77f6e5e1ba  ./annotation_hashes.txt
+743955623d052169a492d671b89ac995  ./GCF_900241365.1_STY131_assembly_report.txt
+e43cd539a7396caa24a737b0a3cbb0af  ./GCF_900241365.1_STY131_assembly_stats.txt
+f18322a497b529acb903f45cd48cdc07  ./GCF_900241365.1_STY131_cds_from_genomic.fna.gz
+bf4e41486fde49321345120fd7ae1436  ./GCF_900241365.1_STY131_feature_count.txt.gz
+28bd2409ede2814cbd3f743eac404ccf  ./GCF_900241365.1_STY131_feature_table.txt.gz
+b2414f568d21e6077f01db19d23679c3  ./GCF_900241365.1_STY131_genomic.fna.gz
+c874fa26b587b89aeb9376267d4fc27f  ./GCF_900241365.1_STY131_genomic.gbff.gz
+8473543a4aa11c8de29f58ffa164329b  ./GCF_900241365.1_STY131_genomic.gff.gz
+049eb1ec417fde2a4d7e3f20c03c80fa  ./GCF_900241365.1_STY131_genomic.gtf.gz
+cd08535754077afc579aabdaf9344ddd  ./GCF_900241365.1_STY131_protein.faa.gz
+c79d2e4d555e2cafc2f6d35bbb336f6a  ./GCF_900241365.1_STY131_protein.gpff.gz
+ca3975a548ecc27e514cd4520fbcd068  ./GCF_900241365.1_STY131_rna_from_genomic.fna.gz
+48be1605eebb8cd2672ef0d66581d78b  ./GCF_900241365.1_STY131_translated_cds.faa.gz
+bdd2b8955f6708b47505f75b3a2e99a2  ./GCF_900241365.1_STY131_wgsmaster.gbff.gz

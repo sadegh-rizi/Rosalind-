@@ -1,0 +1,15 @@
+776c9d7a080531d33d5cad62b98f5f33  ./annotation_hashes.txt
+e7810f9a2bd39e99aefa357c0f6f04c5  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_assembly_report.txt
+6f49d4c60a45dba931dfef0e69d1e506  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_assembly_stats.txt
+04fee24e9ea29a497f3d9f4b3f375b39  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_cds_from_genomic.fna.gz
+87effa0be17dabdd7b99b27757a66dfe  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_feature_count.txt.gz
+2cae67cd1e0576904862fbcb241b212a  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_feature_table.txt.gz
+b1ac544ef680476d4109544e68dc556d  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_genomic.fna.gz
+f362b8796f9ecdf205faa64a7f510066  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_genomic.gbff.gz
+0f576cc72fe0cde3ac85d85756014a23  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_genomic.gff.gz
+40f91701d5ecdac2e3e39343f7b1470f  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_genomic.gtf.gz
+7d603eed289f8c8ddadfb870e81d5178  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_protein.faa.gz
+e3e8ac7733c5e9aa01f86aa3a2aa1f64  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_protein.gpff.gz
+7dd5a7e67c8190be0e10d8bcf956fe51  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_rna_from_genomic.fna.gz
+181f5fe54479b5c9d9692200a66b4bd7  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_translated_cds.faa.gz
+98643763f39c198445fb9ee1b8a86916  ./GCF_001479545.1_Salmonella_enterica_CVM_N32781-SQ_v1.0_wgsmaster.gbff.gz

@@ -1,0 +1,15 @@
+d2b6377405894db10dde2f7ed0e16a6e  ./annotation_hashes.txt
+92e562d08947e103ea411e13347c3db1  ./GCF_900241825.1_STY173_assembly_report.txt
+56422021ffe6eae1c03b7676699fc38f  ./GCF_900241825.1_STY173_assembly_stats.txt
+f3e43cde9deb4a5774d04c0e5c166252  ./GCF_900241825.1_STY173_cds_from_genomic.fna.gz
+0d38ad5ba6cfa6f43c2dbf96ce206f6e  ./GCF_900241825.1_STY173_feature_count.txt.gz
+73ab27b6c3b59ee15a36b52fd404fb65  ./GCF_900241825.1_STY173_feature_table.txt.gz
+a2ff9d0d0a5f97e6ce90aef693b4fbb3  ./GCF_900241825.1_STY173_genomic.fna.gz
+6dd8c349c2c65073d8a1553da8194a89  ./GCF_900241825.1_STY173_genomic.gbff.gz
+e89d4ddc09ef4f86f8945c7320e65abf  ./GCF_900241825.1_STY173_genomic.gff.gz
+8880cc4cdfc769c0a08becc7d29b27ee  ./GCF_900241825.1_STY173_genomic.gtf.gz
+909dcef1f6fde51a857a1b552e1b4774  ./GCF_900241825.1_STY173_protein.faa.gz
+c4abc64912a8b54246f47cd7f661ac46  ./GCF_900241825.1_STY173_protein.gpff.gz
+d87f6af4fc5d13ca3dbf829f1d613934  ./GCF_900241825.1_STY173_rna_from_genomic.fna.gz
+58a4deb9dee6fe7b78e84f341d8506ac  ./GCF_900241825.1_STY173_translated_cds.faa.gz
+51e740767e8bad7355e6c6559ac1b8ae  ./GCF_900241825.1_STY173_wgsmaster.gbff.gz

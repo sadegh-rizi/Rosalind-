@@ -1,0 +1,15 @@
+d38a1b0a1ebc1ab4c3e922e1f957705b  ./annotation_hashes.txt
+f6a85b3d2d36aa0743511258bb4a134a  ./GCF_020296485.1_ASM2029648v1_assembly_report.txt
+abefa561b9a069a1db5b0c0c08ad40bf  ./GCF_020296485.1_ASM2029648v1_assembly_stats.txt
+87822f3edcab0da70e043a2e7e54cbe5  ./GCF_020296485.1_ASM2029648v1_cds_from_genomic.fna.gz
+067ba350480445bf0f087146d187ae40  ./GCF_020296485.1_ASM2029648v1_feature_count.txt.gz
+d457f753a5e662ed01ee9ab430d869ab  ./GCF_020296485.1_ASM2029648v1_feature_table.txt.gz
+ab9d13dc54c220f6e14c0a7c7d01fbdf  ./GCF_020296485.1_ASM2029648v1_genomic.fna.gz
+b9b53bcaa3d230cc5eb3a2be32efdeee  ./GCF_020296485.1_ASM2029648v1_genomic.gbff.gz
+732ae7480b878fb57dce5d4db8ed554f  ./GCF_020296485.1_ASM2029648v1_genomic.gff.gz
+e040c7d7e38063119ce8dac36647668b  ./GCF_020296485.1_ASM2029648v1_genomic.gtf.gz
+c53c977d506f211d84e7c1d508f70263  ./GCF_020296485.1_ASM2029648v1_protein.faa.gz
+4c6247b9e6cad27dd54855c55e9bcecd  ./GCF_020296485.1_ASM2029648v1_protein.gpff.gz
+54911d0497813efd163f57802420b74d  ./GCF_020296485.1_ASM2029648v1_rna_from_genomic.fna.gz
+a45f3dbdeae52ed96101f787ba0b4adc  ./GCF_020296485.1_ASM2029648v1_translated_cds.faa.gz
+d34db0843bfeec740c08d89801efd2f4  ./GCF_020296485.1_ASM2029648v1_wgsmaster.gbff.gz

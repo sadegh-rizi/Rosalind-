@@ -1,0 +1,14 @@
+20ba49480f0afc44a1b7e562662b9c02  ./annotation_hashes.txt
+fd99205314e5255c34eff7512637e36f  ./GCF_000953495.1_SINFA_assembly_report.txt
+9100e4e44c0c2ecc1cc59719514878cd  ./GCF_000953495.1_SINFA_assembly_stats.txt
+c3685297ed15f8a35e6085515e04cb71  ./GCF_000953495.1_SINFA_cds_from_genomic.fna.gz
+418703e46d6b6b637da93300ad821828  ./GCF_000953495.1_SINFA_feature_count.txt.gz
+49b5f3c3dff5088c5f0502da2fe6cdbf  ./GCF_000953495.1_SINFA_feature_table.txt.gz
+bac6c754941cec8f8bce90093ce58761  ./GCF_000953495.1_SINFA_genomic.fna.gz
+38651db9a4d46ddcf5f843d53686b56a  ./GCF_000953495.1_SINFA_genomic.gbff.gz
+142c83476dd71f15477982ce20440a02  ./GCF_000953495.1_SINFA_genomic.gff.gz
+0590e64bcfd1f2d253403ca876339063  ./GCF_000953495.1_SINFA_genomic.gtf.gz
+2f3ecadbf038295a3a0cd1e04bc0fb1b  ./GCF_000953495.1_SINFA_protein.faa.gz
+96705f141835eaa5137280e21cf209a9  ./GCF_000953495.1_SINFA_protein.gpff.gz
+5d51ab100983fe81c6d78db6ec3c7105  ./GCF_000953495.1_SINFA_rna_from_genomic.fna.gz
+c1413ffd8cd1ce45e5f0b7ecbea0bf88  ./GCF_000953495.1_SINFA_translated_cds.faa.gz

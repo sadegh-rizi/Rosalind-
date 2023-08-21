@@ -1,0 +1,15 @@
+b61b373b5be5ec8c63670aa7d35bc832  ./annotation_hashes.txt
+c0d6cd57f306b28eda0c7bd9e4dc3b24  ./GCF_903970825.1_2747MinION_assembly_report.txt
+d73504f078d61f848fcbae3b13d78940  ./GCF_903970825.1_2747MinION_assembly_stats.txt
+6690235967c287003c0973c1fea2ebea  ./GCF_903970825.1_2747MinION_cds_from_genomic.fna.gz
+3c3774bf92c6a443a5bb9bc65ccf3970  ./GCF_903970825.1_2747MinION_feature_count.txt.gz
+c18854e58c61098321104b1a28c4c37c  ./GCF_903970825.1_2747MinION_feature_table.txt.gz
+c8da800a8fd22076b303441488b8afeb  ./GCF_903970825.1_2747MinION_genomic.fna.gz
+1599337c369a53f009ecfb076a32fd42  ./GCF_903970825.1_2747MinION_genomic.gbff.gz
+f08fc8b4417379dced490be158d166aa  ./GCF_903970825.1_2747MinION_genomic.gff.gz
+b7d3ef6d4d74c68f6fee104501bc8b09  ./GCF_903970825.1_2747MinION_genomic.gtf.gz
+bf372f45e709d0b189c9e7867e464bb7  ./GCF_903970825.1_2747MinION_protein.faa.gz
+93d6fcd056510de1805b49630636ad77  ./GCF_903970825.1_2747MinION_protein.gpff.gz
+d5b1694aa214ab1f609b48874a8e63a3  ./GCF_903970825.1_2747MinION_rna_from_genomic.fna.gz
+071df8abf95f82b68cc84926cc408d0b  ./GCF_903970825.1_2747MinION_translated_cds.faa.gz
+0686c0da78317542eb8821c8fb269edb  ./GCF_903970825.1_2747MinION_wgsmaster.gbff.gz
